@@ -80,7 +80,7 @@ jQuery(document).ready(function($) {
 			else var str = $(this).serialize();		
 				$.ajax({
 				type: "POST",
-				url: "contact/contact.php",
+				url: "mail.php",
 				data: str,
 				success: function(msg){
 			$("#sendmessage").addClass("show");
