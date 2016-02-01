@@ -1,0 +1,436 @@
+
+@font-face {
+font-family:'LeagueGothicRegular';
+src:url('font/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'), url('font/League_Gothic-webfont.woff') format('woff'), url('font/League_Gothic-webfont.ttf') format('truetype'), url('font/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+font-weight:400;
+font-style:normal;
+}
+
+/*--------------------------------------------------------------- */
+/* 1: GENERAL STYLING */
+/*--------------------------------------------------------------- */
+body {
+background-image:url(../images/bg1.png);
+background-color:#fff;
+background-repeat:repeat;
+color:#555;
+font:normal 12px/1.9em 'HelveticaNneue', Helvetica, Arial, sans-serif;
+margin:0 auto 100px;
+}
+
+#wrapper {
+width:890px;
+padding-top:40px;
+margin:0 auto;
+}
+
+.left_column {
+float:left;
+width:400px;
+margin:30px 0 20px;
+padding:0 0 20px;
+}
+
+.right_column {
+float:right;
+width:400px;
+margin:30px 0 20px;
+padding:0 0 20px;
+}
+
+a {
+color:#777;
+text-decoration:none;
+outline:none;
+}
+
+a:hover {
+color:#444;
+text-decoration:none;
+outline:none;
+}
+
+/*--------------------------------------------------------------- */
+/* 1: CATEGORY STYLING */
+/*--------------------------------------------------------------- */
+
+/* ------- 01. TOP INFORMATION  ------- */
+
+/* ------- your name ------- */
+h1 {
+font-family:'LeagueGothicRegular', Arial, sans-serif;
+font-size:60px;
+font-weight:400;
+text-shadow:0 1px 0 #fff;
+color:#333;
+margin:0px auto;
+line-height:60px;
+
+}
+
+/* ------- job description ------- */
+h2{
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size:18px;
+font-weight:500;
+letter-spacing:1px;
+text-transform:uppercase;
+color:#444;
+padding:0px;
+margin:0px;
+vertical-align:top
+}
+
+/* ------- profile ------- */
+.profile {
+font-size:14px;
+font-weight:400;
+line-height:25px;
+color:#555;
+margin:10px 0 20px;
+}
+
+
+/* ------- 02. DETAILS ------- */
+.info {
+padding-left:0;
+}
+
+.info ul {
+margin:0;
+padding:0;
+}
+
+.info li {
+list-style:none;
+padding-left:20px;
+background:url(style/images/bullet.gif) 1px 0.8em no-repeat;
+}
+
+/* ------- 03. SECTION HEADINGS ------- */
+
+/* ------- title ------- */
+.title {
+font-family:'LeagueGothicRegular', Arial, sans-serif;
+font-size:30px;
+font-weight:400;
+color:#444;
+border-bottom:3px double #aaa;
+text-shadow:0 1px 0 #fff;
+height:1px;
+margin-bottom:20px;
+padding:10px 0 28px;
+}
+
+/* ------- number ------- */
+span.first {
+font-family:'LeagueGothicRegular', Arial, sans-serif;
+font-size:30px;
+color:#c15236;
+font-weight:400;
+margin-right:5px;
+text-shadow:0 1px 0 #fff;
+}
+
+/* ------- 04. EXPERIENCE/JOBS/ SKILLS/ AWARDS  ------- */
+
+/* ------- job title ------- */
+h3 {
+font-size:15px;
+font-weight:400;
+color:#333;
+margin:0 0 -12px;
+}
+
+.date {
+color:#777;
+}
+
+.star {
+margin:0 0 16px;
+}
+
+/*--------------------------------------------------------------- */
+/* - 1. FOOTER - */
+/*--------------------------------------------------------------- */
+
+#footer {padding:0; }
+
+/* ------- diagonal striped rule ------- */
+.hr {
+background:url(style/images/dashedline.png) bottom repeat-x;
+height:25px;
+margin:0 0 15px;
+}
+
+/*--------------------------------------------------------------- */
+/* - 1. THUMBNAIL GALLERY - */
+/*--------------------------------------------------------------- */
+
+.photo-top {
+float:left;
+background:#F5F5F5;
+border:1px solid #ccc;
+border-bottom:1px solid #999;
+border-right:1px solid #999;
+margin:30px 19px 0 0;
+padding:5px;
+}
+
+.photo-top-last {
+background:#F5F5F5;
+border:1px solid #ccc;
+border-bottom:1px solid #999;
+border-right:1px solid #999;
+margin:30px 0 0 -1px;
+padding:5px;
+}
+
+.photo-top a {
+text-decoration:none;
+}
+
+
+/*--------------------------------------------------------------- */
+/* - 2. FOOTER COLUMNS - */
+/*--------------------------------------------------------------- */
+/* - footer left - */
+.footerleft {
+width:400px;
+height:270px;
+float:left;
+padding:25px 0 10px;
+}
+
+/* - footer right - */
+.footerright {
+width:400px;
+padding-top:25px;
+float:right;
+}
+
+/*--------------------------------------------------------------- */
+/* - 3. BUTTONS - */
+/*--------------------------------------------------------------- */
+
+/* -- icons -- */
+#sharing {
+
+
+float:left;
+padding:0;
+}
+
+#sharing ul {
+list-style-type:none;
+margin:-5px 0 0 -47px;
+}
+
+#sharing li {
+float:left;
+display:block;
+height:50px;
+width:42px;
+margin-right:13px;
+}
+
+#sharing li a {
+display:block;
+height:56px;
+width:42px;
+text-indent:-9999px;
+background-image:url(style/images/icons.png);
+}
+
+#sharing .print a {
+background-position:0 0;
+}
+
+#sharing .contact a {
+background-position:122px 0;
+}
+
+#sharing .pdf a {
+background-position:244px 0;
+}
+
+#sharing .top a {
+background-position:368px 0;
+}
+
+#sharing .print a:hover {
+background-image:url(style/images/icons_hover.png);
+background-position:0 0;
+}
+
+#sharing .contact a:hover {
+background-image:url(style/images/icons_hover.png);
+background-position:122px 0;
+}
+
+#sharing .pdf a:hover {
+background-image:url(style/images/icons_hover.png);
+background-position:244px 0;
+}
+
+#sharing .top a:hover {
+background-image:url(style/images/icons_hover.png);
+background-position:368px 0;
+}
+
+/* -- back to top link -- */
+#back-top {
+position:relative;
+margin:0;
+}
+
+#back-top a {
+width:46px;
+display:block;
+text-decoration:none;
+color:#bbb;
+}
+
+/* -- social icons -- */
+.socialicons {
+background-color:transparent;
+padding:0 0px 0px 0px;
+}
+
+.icons a {
+outline:0;
+text-decoration:none;
+padding:0 6px 0px 0px;
+}
+
+.copyright{
+color:#777;
+font-size:11px;
+}
+/* -- testimonial -- */
+.testimonial {
+float:right;
+margin:-107px 0 0;
+}
+
+.testimonial_badge {
+outline:0;
+border:none;
+margin:0;
+}
+
+/* -- testimonial pop-up box -- */
+.review {
+color:#555;
+font:normal 12px/1.9em 'Helvetica Neue', Helvetica, Arial,  sans-serif;
+padding:25px 15px 0;
+}
+
+
+/*--------------------------------------------------------------- */
+/* - 4. CONTACT FORM - */
+/*--------------------------------------------------------------- */
+.hide {
+display:none;
+}
+
+label {
+display:block;
+}
+
+input {
+outline:none;
+border:0 solid #ccc;
+}
+
+#form_name,#form_email,#form_subject {
+width:318px;
+margin-top:-28px;
+margin-left:70px;
+padding:5px;display:block;
+}
+
+.label {
+font-size:12px;
+font-weight:700;
+width:65px;
+}
+
+textarea {
+width:318px;
+height:100px;
+border:0 solid #ccc;
+margin-top:-28px;
+margin-left:70px;
+padding:5px;
+}
+
+#form_submit{
+outline:none;
+background:transparent url(style/images/submit.png) no-repeat 0 0px;
+height:35px;
+width:83px;
+text-decoration:none;
+margin:16px 0 0 70px;
+}
+
+#reset {
+outline:none;
+background:transparent url(style/images/reset.png) no-repeat 0 0px;
+height:35px;
+width:83px;
+text-decoration:none;
+}
+
+#form_submit:active, #reset:active {
+-webkit-transform: translateY(1px); -moz-transform: translateY(1px); 
+}
+
+#form_name,#form_email,#form_subject,textarea {
+background:transparent;
+border:#999;
+color:#333;
+font-size:12px;
+font-family:helvetica neue, helvetica, arial,sans-serif;
+border-style:solid;
+border-width:1px;
+}
+
+#error {
+font: normal 11px 'Helvetica Neue', arial, sans-serif;
+margin: 0px 0px 0px 32px; 
+}
+
+#error li{ list-style-type:none; }
+
+/*for FireFox*/
+input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner , input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner 
+{ border : 0px; } 
+/*for IE8 */
+input[type="reset"]:focus, input[type="button"]:focus , input[type="submit"]:focus, input[type="button"]:focus
+{ outline : none; }
+
+
+/* -- clear -- */
+.clear {
+height:10px;
+clear:both;
+}
+
+
+
+/* === Demo === */
+.slide-out-div{padding:5px 0px 0 12px;
+width:66px;
+background-color:#3c3b36;
+text-align:left;
+color:#999;float:right;
+position: relative;
+z-index:999;
+}
+.slide-out-div p{font-size:11px;
+line-height:20px;
+font-family:arial, sans-serif;}
+
+
+

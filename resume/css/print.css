@@ -1,0 +1,123 @@
+/*
+Theme Name: Opus
+Description: Designed by <a href="http://themeforest.net/user/josweb">josweb</a>.
+Version: 1
+Author: <a href="http://www.spiralpixel.com">Jo</a>
+*/
+
+body {
+background-color:#fff;
+color:#555;
+font: normal normal 12px/1.9em helvetica neue, helvetica, Arial, sans-serif;}
+#wrapper{
+width:890px;padding-top:50px;
+margin:0px auto;
+}
+.left_column { 
+float:left;
+width:400px;
+margin:30px 0px 20px 0px;
+padding:0px 0px 20px 0px;
+}
+.right_column { 
+float:right;
+width:400px;
+margin:30px 0px 20px 0px;
+padding:0px 0px 20px 0px;
+}
+p { 
+margin-bottom:10px;
+}
+
+a { 
+color:#444; 
+text-decoration:none;
+outline:none;
+}
+a:hover { 
+color:#666; 
+}
+.title { font-family: helvetica neue, helvetica, Arial, sans-serif;
+font-size:18px;
+font-weight:normal;
+color: #333;
+border-bottom:2px solid #aaa;
+padding:10px 0px 27px 0px;
+height:1px;
+margin-bottom:20px;
+}
+span.first{ 
+font-family: helvetica neue, helvetica, Arial, sans-serif;
+font-size:18px;
+color: #666;font-weight:normal;
+margin-right:5px;
+}
+
+h1 { 
+font-family: helvetica neue, helvetica, Arial, sans-serif;
+font-size:32px;
+font-weight:normal;
+text-shadow: 0px 1px 0px #fff;
+margin: 0px 0px;  
+color: #333;
+}
+h2 { 
+font-family: helvetica neue, helvetica, Arial, sans-serif;
+font-size:12px;
+font-weight:normal;
+text-transform:uppercase;
+margin:5px 0px 15px 0px;
+color: #222; 
+}
+.profile { 
+font-family: helvetica neue, helvetica, Arial, sans-serif; 
+font-size:12px;
+font-weight:normal;
+line-height:23px;
+color: #333;
+margin: 0px 0px 25px 0px;
+}
+#sliderbg{
+display:none;
+}
+.info { padding-bottom:0px;
+margin:0px 0px 0px 0px;
+padding-left:0px;
+}
+.info { 
+margin:0 0 0px 0px;
+}
+.info li {
+
+
+list-style-type:none; 
+}
+h3 { 
+font-family: helvetica neue, helvetica, Arial, sans-serif; 
+font-size:15px;
+font-weight:normal;
+margin: 0px 0px -12px 0px; 
+color: #000;
+
+}
+.date {
+color: #777;
+}
+.star{
+margin: 0px 0px  12px 0px;
+}
+#footer { 
+display:none;
+}
+/* -- extras -- */
+.clear{ height:10px;
+clear:both;
+}
+
+
+
+/* -- for demo -- */
+.style { 
+display:none;
+}
+
