@@ -201,6 +201,8 @@ header{
 .navigation {
 	margin:0 0 0;
 	padding:0;
+	width: 60%;
+	display: inline-block;
 }
 
 #navigation .navbar {
@@ -247,6 +249,7 @@ header{
   padding-top: 0;
   padding-bottom: 0;
   line-height: 1em;
+  color: #fff;
 }
 
 .navbar .nav > li > a,
@@ -296,6 +299,30 @@ header{
 	-webkit-box-shadow: 0 0 10px #666;
 	-moz-box-shadow: 0 0 10px #666;
 }
+
+#nav-resume {
+	display: inline-block;
+}
+
+.letmeout {
+	float: left;
+    padding: 5px;
+    margin: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+.letmeout a {
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
 
 /* =======================================
 2. Section: Intro

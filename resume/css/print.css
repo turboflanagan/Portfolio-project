@@ -1,9 +1,4 @@
-/*
-Theme Name: Opus
-Description: Designed by <a href="http://themeforest.net/user/josweb">josweb</a>.
-Version: 1
-Author: <a href="http://www.spiralpixel.com">Jo</a>
-*/
+
 
 body {
 background-color:#fff;
@@ -30,7 +25,7 @@ margin-bottom:10px;
 }
 
 a { 
-color:#444; 
+color:#fff; 
 text-decoration:none;
 outline:none;
 }

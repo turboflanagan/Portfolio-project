@@ -27,7 +27,6 @@
 		$(this).find('.accordion-toggle i').not($(e.target)).removeClass('icon-minus');
 		$(this).find('.accordion-toggle i').not($(e.target)).addClass('icon-plus');
     });	
-
      
 	//navigation
 	$('.navigation').onePageNav({
@@ -38,6 +37,10 @@
 			console.log('stop');
 		},
 			scrollOffset: 0		
+	});
+	
+	$('.letmeout').click({
+		// console.log(this);
 	});
 	
 		// fancybox
