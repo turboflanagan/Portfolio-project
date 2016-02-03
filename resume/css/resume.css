@@ -10,7 +10,7 @@ font-style:normal;
 /* 1: GENERAL STYLING */
 /*--------------------------------------------------------------- */
 body {
-background-image:url('images/bg1.png');
+background-image:url('../images/bg1.png');
 background-color:#fff;
 background-repeat:repeat;
 color:#555;
