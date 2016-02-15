@@ -175,6 +175,11 @@ section.dark .heading h3 {
 .sub-heading {
 	text-align:center;
 	margin:20px 0 20px 0;
+
+}
+
+.sub-heading a {
+	color: blue;
 }
 
 .sub-heading p {	
@@ -312,16 +317,36 @@ header{
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #fff;
-    
+    color: #fff;    
 }
 
-.letmeout a {
+/*.letmeout a {
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+}*/
+
+.letmeout a:hover {
+	text-decoration: none;
+    color: #5C9F24 !important;
 }
+
+#resume-link {
+	color: #fff;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+
+}
+
+/*#resume-link :hover {
+    text-decoration: none;
+    color: #5C9F24 !important;
+
+}*/
 
 
 /* =======================================
